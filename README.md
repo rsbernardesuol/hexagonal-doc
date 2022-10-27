@@ -63,6 +63,6 @@ A arquitetura hexagonal aplica <b>SoC(Separation of concerns)</b> e estabelece o
 
 # Atores
 
-![Atores](hexagonal.png)
+![Atores](atores.png)
 
 
