@@ -36,5 +36,5 @@ Foco no requisito de negócio, ignorando dependências externas técnicas e infr
 
 
 
-![Hexagonal](hexgonal.png)
+![Hexagonal](hexagonal.png)
 
