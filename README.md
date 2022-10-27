@@ -47,6 +47,8 @@ A arquitetura hexagonal aplica <b>SoC(Separation of concerns)</b> e estabelece o
 1. Centro como hexágono 
    - Toda a Lógica de negocio.
    - Pode conter código Orientado a Objetos, Orientado a Aspectros ou  Programação funcional.
+   - Totalmente agnostico a qualquer tecnologia, framewark e infraestrutura de interfaces (gráficas,comunicações) e dispositivos externos do mundo real
+   
 
 2. Lado superior esquerdo, fora do hexágono ().
 
