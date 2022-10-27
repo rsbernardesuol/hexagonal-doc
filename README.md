@@ -65,6 +65,16 @@ A arquitetura hexagonal aplica <b>SoC(Separation of concerns)</b> e estabelece o
 
 Fora do hexágono, temos qualquer coisa do mundo real com a qual o aplicativo interage. Essas coisas incluem seres humanos, outros aplicativos ou qualquer dispositivo de hardware ou software. Eles são chamados de atores.
 
+1. Ator Primário Condutor
+   - A interação é acionada pelo ator. 
+   - É aquele interage com o aplicativo para atingir um objetivo. Exemplos: Suites de test
+
+
+2. Ator Secundário Conduzido
+   - A interação é acionada pelo hexágono. 
+   - Um ator secundários fornece funcionalidades necessárias ao hexágono para processar a lógica de negócios.
+     Exemplos: banco de dados relacionais, nosql, serviços web http, stmp, sistema de arquivos e etc.
+
 ![Atores](atores.png)
 
 
