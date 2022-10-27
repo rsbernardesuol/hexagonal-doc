@@ -88,3 +88,8 @@ A arquitetura hexagonal estabelece o seguinte princípio de dependências: "<b>s
 3. O centro, o hexágono não depende de ninguém, só dele mesmo.
 
 
+# Portas
+
+A arquitetura hexagonal estabelece o princípio que, a comunicação "de fora para dentro" deve ser feito única e exclusivamente através de uma metáfora chamada "porta".
+
+
