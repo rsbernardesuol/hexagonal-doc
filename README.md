@@ -8,7 +8,7 @@
 
 # GUIDELINE
 
-Hexagonal é um guideline, ou seja uma diretriz, traz principios pré-definidados onde o objetivo é colher resultados previamente direcionados. 
+Hexagonal além de ser um Design Pattern é um guideline, ou seja uma diretriz, traz principios pré-definidados onde o objetivo é colher resultados previamente direcionados. 
 
 # Para que serve?
 
