@@ -1,4 +1,4 @@
-# O QUE É DESIGN PATTERNS
+# O que é DESIGN PATTERNS
 
 **Uma solução para um problema que existe (só aplicar quando o problema existir)**
 
