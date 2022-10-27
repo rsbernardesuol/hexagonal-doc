@@ -63,7 +63,7 @@ A arquitetura hexagonal aplica <b>SoC(Separation of concerns)</b> e estabelece o
 
 # Atores
 
-Fora do hexágono, temos qualquer coisa do mundo real com a qualo aplicativo interage. Essas coisas incluem seres humanos, outros aplicativos ou qualquer dispositivo de hardware ou software. Eles são chamados de atores.
+Fora do hexágono, temos qualquer coisa do mundo real com a qual o aplicativo interage. Essas coisas incluem seres humanos, outros aplicativos ou qualquer dispositivo de hardware ou software. Eles são chamados de atores.
 
 ![Atores](atores.png)
 
