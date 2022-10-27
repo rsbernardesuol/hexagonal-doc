@@ -8,7 +8,7 @@
 
 # GUIDELINE
 
-Hexagonal é um guideline, ou seja uma diretriz, traz principios pré-definidados onde o objetivo é colher resultados previamente direcionados. 
+Hexagonal além de ser um Design Pattern é um guideline, ou seja uma diretriz, traz principios pré-definidados onde o objetivo é colher resultados previamente direcionados. 
 
 # Para que serve?
 
@@ -32,7 +32,10 @@ Foi idealizado para que as equipes de desenvolvimento pudessem aplicar ideias/pr
 
 # Qual objetivo?
 
-Foco no requisito de negócio, ignorando dependências externas técnicas e infra estruturais. A ideia é criar uma arquitetura que possa ser executada por usuários, programas e testes automatizados.
+Foco no requisito de negócio, ignorando dependências externas técnicas e infra estruturais (ex: interface grafica e banco de dados). A ideia é criar uma arquitetura que possa ser executada por usuários, programas e testes automatizados.
+Essa arquitetura também é chamada de "Port and Adapters Patterns".
 
+# Arquitetura Hexagonal
 
+![Hexagonal](hexagonal.png)
 
