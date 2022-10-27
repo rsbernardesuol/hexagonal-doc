@@ -14,11 +14,11 @@ Hexagonal além de ser um Design Pattern é um guideline, ou seja uma diretriz, 
 
 Projetar e construir aplicativos de software, estabelecendo uma arquitetura moderna, robusta e altamente flexível, orientadas pelas premissas básicas da filosofia de desenvolvimento ágil:
 
-<b>1.</b> Desenvolvimento orientado a TDD.
+1. Desenvolvimento orientado a TDD.
 
-<b>2.</b> Foco nos requisitos de negócio.
+2. Foco nos requisitos de negócio.
 
-<b>3.</b> Adiar decisões técnicas o máximo possível.
+3. Adiar decisões técnicas o máximo possível.
 
 # Quando surgiu?
 
@@ -38,4 +38,31 @@ Essa arquitetura também é chamada de "Port and Adapters Patterns".
 # Arquitetura Hexagonal
 
 ![Hexagonal](hexagonal.png)
+
+
+# Isolamento
+
+A arquitetura hexagonal aplica <b>SoC(Separation of concerns)</b> e estabelece o princípio de modularizar a solução em <b>3 áreas distintas e isoladas:</b>
+
+1. Centro como hexágono 
+   - Toda a Lógica de negocio.
+   - Pode conter código Orientado a Objetos, Orientado a Aspectros ou  Programação funcional.
+   - Totalmente agnostico a qualquer tecnologia, framewark e infraestrutura de interfaces (gráficas, comunicações) e dispositivos externos.
+   - Pode ter dependências de framewarks de serviços gerais, ex: Logg, IoC etc.
+   
+
+2. Lado superior esquerdo, fora do hexágono
+   - Lado intercambiável e flexível
+   - Onde o ator externo irá interagir e estimular a solução
+   - Conterá <b>código de tecnologia específica</b> que irá disparar eventos na solução.
+
+3. Lado inferior direito, fora do hexágono.
+   - Lado intercambiável e flexível
+   - Fornecerá os <b>serviços de infraestrutura</b> que a solução precisa para existir.
+   - Conterá <b>código de tecnologia específica</b>, normalmente código que interage com o banco de dados, faz chamadas http etc.
+
+# Atores
+
+![Atores](atores.png)
+
 
