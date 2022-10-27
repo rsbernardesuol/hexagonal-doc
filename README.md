@@ -24,8 +24,8 @@ Projetar e construir aplicativos de software, estabelecendo uma arquitetura mode
 
 Elaborado e documentado em 2005 por Alistair Cockburn (https://en.wikipedia.org/wiki/Alistair_Cockburn)
 
-<b>-</b> Um dos autores do manifeato agil 2001.
+- Um dos autores do manifeato agil 2001.
 
-<b>-</b> Autor da metodologia Cristal Clear.
+- Autor da metodologia Cristal Clear.
 
 
