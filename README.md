@@ -59,5 +59,10 @@ A arquitetura hexagonal aplica <b>SoC(Separation of concerns)</b> e estabelece o
 3. Lado inferior direito, fora do hexágono.
    - Lado intercambiável e flexível
    - Fornecerá os <b>serviços de infraestrutura</b> que a solução precisa para existir.
-   - Conterá <b>código de tecnologia específica</b>, normalmente código que interage com o banco de dados, faz chamadas http etc. 
+   - Conterá <b>código de tecnologia específica</b>, normalmente código que interage com o banco de dados, faz chamadas http etc.
+
+# Atores
+
+![Atores](hexagonal.png)
+
 
