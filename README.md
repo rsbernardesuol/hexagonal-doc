@@ -28,4 +28,7 @@ Elaborado e documentado em 2005 por Alistair Cockburn (https://en.wikipedia.org/
 
 - Autor da metodologia Cristal Clear.
 
+Foi idealizado para que as equipes de desenvolvimento pudessem aplicar premissas de ágil na elaboração da arquitetura de software. Perdeu força nos anos seguintes mas ressurgiu como um interesse global a partir de 2015.
+
+
 
