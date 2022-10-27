@@ -77,4 +77,19 @@ Fora do hexágono, temos qualquer coisa do mundo real com a qual o aplicativo in
 
 ![Atores](atores.png)
 
+# Dependências
+
+A arquitetura hexagonal estabelece o seguinte princípio de dependências: "<b>somente de fora para dentro!</b>":
+
+1. Lado esquerdo, os atores primários dependem do hexágono.
+
+2. Lado direito, os atores secundários dependem do hexágono.
+
+3. O centro, o hexágono não depende de ninguém, só dele mesmo.
+
+
+# Portas
+
+A arquitetura hexagonal estabelece o princípio que, a comunicação "de fora para dentro" deve ser feito única e exclusivamente através de uma metáfora chamada "porta".
+
 
