@@ -20,3 +20,12 @@ Projetar e construir aplicativos de software, estabelecendo uma arquitetura mode
 
 <b>3.</b> Adiar decisões técnicas o máximo possível.
 
+# Quando surgiu?
+
+Elaborado e documentado em 2005 por Alistair Cockburn (https://en.wikipedia.org/wiki/Alistair_Cockburn)
+
+<b>-</b> Um dos autores do manifeato agil 2001.
+
+<b>-</b> Autor da metodologia Cristal Clear.
+
+
