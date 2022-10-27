@@ -42,11 +42,13 @@ Essa arquitetura também é chamada de "Port and Adapters Patterns".
 
 # Isolamento
 
-A arquitetura hexagonal aplica <b>SoC</b> e estabelece o princípio de modularizar a solução em <b>3 áreas distintas e isoladas:</b>
+A arquitetura hexagonal aplica <b>SoC(Separation of concerns)</b> e estabelece o princípio de modularizar a solução em <b>3 áreas distintas e isoladas:</b>
 
-1. Centro como hexágono.
+1. Centro como hexágono 
+  - Toda a Lógica de negocio.
+  - Pode conter código Orientado a Objetos, Orientado a Aspectros ou  Programação funcional.
 
-2. Lado superior esquerdo, fora do hexágono.
+2. Lado superior esquerdo, fora do hexágono ().
 
 3. Lado inferior direito, fora do hexágono.
 
