@@ -143,3 +143,13 @@ Pois em curto prazo, o investimento se reverte em lucro pela quantidade e veloci
 Projetos de <b>qualquer porte</b> que precisam ser desenvolvidos sem <b>amarrações</b> com <b>front-end</b> e <b>back services</b>.
 
 
+
+# Conclusão
+
+Não existe bala de prata. A arquitetura hexagonal tem se destacado como uma ótima opção de arquitetura, pois o custo é baixo (poucos pontos negativos) e retorno é alto é rápido (muitos pontos positivos).
+
+É uma das várias opções de padrões arquiteturais encontradas no mercado hoje: DDD, Onion e Clear Architecture.
+
+
+
+
