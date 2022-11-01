@@ -104,3 +104,24 @@ Hexagono 100% Isolado, a comunicação "de fora para dentro" deve ser feito atra
    - Utilizam <b>tecnologia específica</b>.
    - Convertem chamada de negócio em alguma necessidade infraestrutural e externa a solução.
 
+
+# Adaptadores
+
+Funcionam como um <b>"adaptador de tomada"</b> que fazem <b>"ponte"</b> para o que <b>hexágono</b> possa ter input de dados do lado esquerdo e ter acesso aos serviços de infraestrutura do lado direito. 
+
+
+![Adaptadores](adaptadores.png)
+
+1. Adaptador Condutor (Driver)
+   - Converte uma <b>solicitação de tecnologia específica</b> em uma <b>solicitação agnóstica e pura de sistema</b>.
+   - Faz integração do lado de fora para dentro do hexágono.
+   - São classes OOP que usam <b>frameworks e tecnologias específicas</b>.
+   - Repassam as operações para a porta primária.
+   Ex: Suite de testes, GUI de um aplicativo, Fila de Mensageria etc...
+
+
+2. Adaptador Dirigido (Driven)
+   - Devem estar <b>fora do hexágono</b>.
+   - Utilizam <b>tecnologia específica</b>.
+   - Convertem chamada de negócio em alguma necessidade infraestrutural e externa a solução.
+
