@@ -148,7 +148,7 @@ Projetos de <b>qualquer porte</b> que precisam ser desenvolvidos sem <b>amarraç
 
 Não existe bala de prata. A arquitetura hexagonal tem se destacado como uma ótima opção de arquitetura, pois o custo é baixo (poucos pontos negativos) e retorno é alto é rápido (muitos pontos positivos).
 
-É uma das várias opções de padrões arquiteturais encontradas no mercado hoje: DDD, Onion e Clear Architecture.
+É uma das várias opções de padrões arquiteturais encontradas no mercado hoje: DDD, Onion e Clean Architecture.
 
 
 
