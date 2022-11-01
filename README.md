@@ -92,14 +92,14 @@ A arquitetura hexagonal estabelece o seguinte princípio de dependências: "<b>s
 
 Hexagono 100% Isolado, a comunicação "de fora para dentro" deve ser feito através de uma metáfora chamada "porta". 
 
-1. Portas primárias
+1. Portas primárias Condutor (Driver)
    - São os <b>casos de uso</b>. 
    - Devem estar <b>dentro do hexágono</b>.
    - Agnósticos a tecnologias.
    - Redirecionam as chamadas externas para dentro das operações de negócio.
 
 
-2. Portas secundárias
+2. Portas secundárias Conduzida (Driven)
    - Devem estar <b>fora do hexágono</b>.
    - Utilizam <b>tecnologia específica</b>.
    - Convertem chamada de negócio em alguma necessidade infraestrutural e externa a solução.
@@ -114,14 +114,17 @@ Funcionam como um <b>"adaptador de tomada"</b> que fazem <b>"ponte"</b> para o q
 
 1. Adaptador Condutor (Driver)
    - Converte uma <b>solicitação de tecnologia específica</b> em uma <b>solicitação agnóstica e pura de sistema</b>.
-   - Faz integração do lado de fora para dentro do hexágono.
+   - Faz integração do lado <b>de fora para dentro</b> do hexágono.
    - São classes OOP que usam <b>frameworks e tecnologias específicas</b>.
    - Repassam as operações para a porta primária.
-   Ex: Suite de testes, GUI de um aplicativo, Fila de Mensageria etc...
+   - Para cada porta condutora, deve haver pelo <b>menos dois adaptadores</b> (um para testar o comportametno via TDD e outro usando tecnologia real).
+   Ex: Suite de testes, GUI de um aplicativo, Fila de Mensageria, Classes de teste junit, etc...
 
 
-2. Adaptador Dirigido (Driven)
-   - Devem estar <b>fora do hexágono</b>.
-   - Utilizam <b>tecnologia específica</b>.
-   - Convertem chamada de negócio em alguma necessidade infraestrutural e externa a solução.
+2. Adaptador Conduzido (Driven)
+   - Converte chamadas <b>de dentro da solução para fora</b>
+   - Faz integração <b>de dentro para fora</b> do hexágono.
+   - São classes OOP que usam <b>frameworks e tecnologias específicas</b>.
+   - Para cada porta conduzida, dev haver pelo <b>menos dois adaptadores</b> (um para o dispositivo do mundo real e outro simulado/mock)
+   Ex: Classe DAO via JDBC, Classes cliente consumidor de um rest, Classe envio de sms, etc ...
 
