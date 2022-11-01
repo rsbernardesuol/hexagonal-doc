@@ -127,4 +127,16 @@ Funcionam como um <b>"adaptador de tomada"</b> que fazem <b>"ponte"</b> para o q
    - São classes OOP que usam <b>frameworks e tecnologias específicas</b>.
    - Para cada porta conduzida, dev haver pelo <b>menos dois adaptadores</b> (um para o dispositivo do mundo real e outro simulado/mock)
    Ex: Classe DAO via JDBC, Classes cliente consumidor de um rest, Classe envio de sms, etc ...
+   
+   
+# Quando não usar?
+
+Projetos <b>temporais</b>, de <b>menor porte</b> ou <b>legados</b>, no qual não se tenha previsão de alteração de tipo de front-end ou de back services.
+Projetos que fazem uso de <b>regras de negócio dentro de banco de dados</b>, amarrados na tecnologia, marca e provedor proprietário.
+
+# Quando usar?
+
+Projetos de <b>médio</b> e <b>grande porte</b>, que supostamente possuem um <b>longo ciclo de vida</b>, e que precisaram ser modiﬁcados muitas vezes durante sua vida útil, que sofreram de <b>erosão arquitetural</b> e <b>dívida técnica</b>, justiﬁca o uso dessa abordagem.
+Pois em curto prazo, o investimento se reverte em lucro pela quantidade e velocidade das mudanças.
+
 
