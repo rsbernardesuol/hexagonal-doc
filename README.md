@@ -90,6 +90,17 @@ A arquitetura hexagonal estabelece o seguinte princípio de dependências: "<b>s
 
 # Portas
 
-A arquitetura hexagonal estabelece o princípio que, a comunicação "de fora para dentro" deve ser feito única e exclusivamente através de uma metáfora chamada "porta".
+Hexagono 100% Isolado, a comunicação "de fora para dentro" deve ser feito através de uma metáfora chamada "porta". 
 
+1. Portas primárias
+   - São os <b>casos de uso</b>. 
+   - Devem estar <b>dentro do hexágono</b>.
+   - Agnósticos a tecnologias.
+   - Redirecionam as chamadas externas para dentro das operações de negócio.
+
+
+2. Portas secundárias
+   - Devem estar <b>fora do hexágono</b>.
+   - Utilizam <b>tecnologia específica</b>.
+   - Convertem chamada de negócio em alguma necessidade infraestrutural e externa a solução.
 
