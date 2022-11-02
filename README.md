@@ -177,6 +177,8 @@ A arquitetura hexagonal aplica IoC, estabelecendo o princípio modular que <b>o 
    
 # Opções de Design?
 
+<b>Você ﬁca livre para organizar</b> seu projeto de forma que quiser, balanceando os <b>prós e contras</b> de cada opção, usando seu <b>know-how</b> e <b>os recursos</b> que sua plataforma oferece, desde que: cada opção não <b>fure</b> os princípios hexagonal.
+
 <b>Implementação das regras de negócio dentro do hexágono</b>
 
 1. Transactions Script - EAA Pattern (https://martinfowler.com/eaaCatalog/transactionScript.html).
