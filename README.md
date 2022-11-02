@@ -202,3 +202,5 @@ Não existe bala de prata. A arquitetura hexagonal tem se destacado como uma ót
 
 
 ![Livro1](livro1.jpg)
+
+![Livro2](livro2.jpg)
