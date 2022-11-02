@@ -250,6 +250,15 @@ A interfaces de casos de uso podem ser projetados usando as seguintes opções:
 dynamic-bean.html).
 
 
+<b>Uso de objetos polimórﬁcos de backservices</b>
+
+1. Fazer IoC desses objetos em qualquer outro objeto dentro do hexágono, <b>por livre demanda</b>. Assim todos estes terão dependência com os backservices e deverão entrar no gerenciamento IoC. Isso pode ter prós e contras, dependendo de como foi organizado o hexágono.
+
+2. <b>Limitar</b> o IoC desses objetos <b>somente nas implementações das portas primárias de caso de uso</b>. Assim, somente esses objetos terão dependência com
+os backservices e deverão entrar no gerenciamento IoC. Outros objetos, de outros serviços dentro do hexágono, não terão dependência com o backservices e
+poderão funcionar fora do IoC. Isso pode ter prós e contras dependendo de como foi organizado o hexágono.
+
+
 # Quando não usar?
 
 Projetos <b>temporais</b>, de <b>menor porte</b> ou <b>legados</b>, no qual não se tenha previsão de alteração de tipo de front-end ou de back services.
