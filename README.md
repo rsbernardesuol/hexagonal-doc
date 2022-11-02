@@ -198,5 +198,7 @@ Não existe bala de prata. A arquitetura hexagonal tem se destacado como uma ót
 É uma das várias opções de padrões arquiteturais encontradas no mercado hoje: DDD, Onion e Clean Architecture.
 
 
+# BIBLIOGRAFIA
 
 
+![Livro1](livro1.jpg)
