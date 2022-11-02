@@ -161,17 +161,41 @@ A arquitetura hexagonal aplica IoC, estabelecendo o princípio modular que <b>o 
 
 <b>Implementação das regras de negócio dentro do hexágono</b>
 
-1 - Transactions Script - EAA Pattern (https://martinfowler.com/eaaCatalog/transactionScript.html).
+1. Transactions Script - EAA Pattern (https://martinfowler.com/eaaCatalog/transactionScript.html).
 
-2 - Domain Model - EAA Pattern (https://martinfowler.com/eaaCatalog/domainModel.html).
+2. Domain Model - EAA Pattern (https://martinfowler.com/eaaCatalog/domainModel.html).
 
-3 - Service Layer - EAA Pattern (https://martinfowler.com/eaaCatalog/serviceLayer.html).
+3. Service Layer - EAA Pattern (https://martinfowler.com/eaaCatalog/serviceLayer.html).
 
-4 - Anemic Domain Model - EAA Pattern (https://martinfowler.com/bliki/AnemicDomainModel.html).
+4. Anemic Domain Model - EAA Pattern (https://martinfowler.com/bliki/AnemicDomainModel.html).
 
-5 - Domain Driven Design - DDD (Eric Evans - https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/).
+5. Domain Driven Design - DDD (Eric Evans - https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/).
 
-6 - Clean Architecture - Entities e User Cases (Uncle Bob - https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
+6. Clean Architecture - Entities e User Cases (Uncle Bob - https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
+
+
+<b>Organização as Portas Primárias</b>
+
+ - Uma porta primária é uma interface que você vai colocar para fora do hexágono.
+
+ - Alguma classe controladora dentro do hexágono vai implementar e responder por aquela interface.
+ 
+ 
+ Existem formas diferentes de como que você expõe isso:
+ 
+ 1. Uma única interface com várias operações distintas (Utilizada em projetos menores).
+   Ex: 4 regras de negócios distintas e uma única interface
+
+ 2. Várias interfaces, cada uma agrupando operações relacionadas.
+   Ex: Hexágono faz venda, compra e aluguel. Você vai ter uma interface para cada com seu eventos (Venda->verPreco, Venda->gerarOrcamento) 
+
+ 3. Uso do padrão de projeto: Command Bus (Interfaces dinâmicas e flexíveis)
+   - Usado em operações que contém alterações
+
+ 4. Uso do padrão de projeto: Command Query (Interfaces dinâmicas e flexíveis). 
+   - Usado em operações que contém apenas resposta de consulta e não vai alterar nada.
+
+
 
 
 # Quando não usar?
