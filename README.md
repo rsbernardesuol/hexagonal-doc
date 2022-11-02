@@ -189,7 +189,7 @@ A arquitetura hexagonal aplica IoC, estabelecendo o princípio modular que <b>o 
 
 5. Domain Driven Design - DDD (Eric Evans - https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/).
 
-6. Clean Architecture - Entities e User Cases (Uncle Bob - https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
+6. Clean Architecture - Entities e Use Cases (Uncle Bob - https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
 
 
 <b>Organização as Portas Primárias -  Casos de Usos</b>
