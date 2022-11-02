@@ -192,7 +192,7 @@ A arquitetura hexagonal aplica IoC, estabelecendo o princípio modular que <b>o 
 6. Clean Architecture - Entities e User Cases (Uncle Bob - https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
 
 
-<b>Organização as Portas Primárias</b>
+<b>Organização as Portas Primárias -  Casos de Usos</b>
 
    - Uma porta primária é uma interface que você vai colocar para fora do hexágono.
 
