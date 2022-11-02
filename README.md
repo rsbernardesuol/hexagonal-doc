@@ -208,10 +208,12 @@ A arquitetura hexagonal aplica IoC, estabelecendo o princípio modular que <b>o 
    Ex: Hexágono faz venda, compra e aluguel. Você vai ter uma interface para cada com seu eventos (Venda->verPreco, Venda->gerarOrcamento) 
 
  3. Uso do padrão de projeto: Command Bus (Interfaces dinâmicas e flexíveis)
-    - Usado em operações que contém alterações
+    - Usado em operações que contém alterações.
+    - Forma dinâmica em tempo de execução para descobrir o que o usuário de fora está querendo fazer (Programação diânica ou Reflection).
 
  4. Uso do padrão de projeto: Command Query (Interfaces dinâmicas e flexíveis). 
     - Usado em operações que contém apenas resposta de consulta e não vai alterar nada.
+    - Forma dinâmica em tempo de execução para descobrir o que o usuário de fora está querendo fazer (Programação diânica ou Reflection).
 
 
 
