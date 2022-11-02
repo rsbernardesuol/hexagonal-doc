@@ -179,6 +179,23 @@ A arquitetura hexagonal aplica IoC, estabelecendo o princípio modular que <b>o 
 
 <b>Você ﬁca livre para organizar</b> seu projeto de forma que quiser, balanceando os <b>prós e contras</b> de cada opção, usando seu <b>know-how</b> e <b>os recursos</b> que sua plataforma oferece, desde que: cada opção não <b>fure</b> os princípios hexagonal.
 
+<b>Organização do Projeto</b>
+
+1. Um projeto com os 3 módulos, separado por pacotes simples.
+2. Um projeto com os 3 módulos, separado por java modules 9.
+3. Três projetos diferentes, uma para cada módulo, usado jar manual.
+4. Três projetos diferentes, uma para cada módulo, usando jar via maven system.
+5. Três projetos diferentes, uma para cada módulo, usando jar via maven repositorio local jfrog - https://jfrog.com/open-source/
+7. N projetos diferentes, uma para cada módulo, um para cada front-end, um para cada back-service: database, nosql, sms, webservice etc, usando jar manual, maven system ou maven repositório local jfrog.
+
+<b>Organização de Pacotes</b>
+
+1. Por tipos (Type)
+2. Por camada (Layer)
+3. Por serviço (Feature)
+4. Por metáforas hexagonal (Ports, Adapters, etc)
+5. Miscelânea
+
 <b>Implementação das regras de negócio dentro do hexágono</b>
 
 1. Transactions Script - EAA Pattern (https://martinfowler.com/eaaCatalog/transactionScript.html).
