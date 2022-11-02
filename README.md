@@ -194,9 +194,9 @@ A arquitetura hexagonal aplica IoC, estabelecendo o princípio modular que <b>o 
 
 <b>Organização as Portas Primárias</b>
 
- - Uma porta primária é uma interface que você vai colocar para fora do hexágono.
+   - Uma porta primária é uma interface que você vai colocar para fora do hexágono.
 
- - Alguma classe controladora dentro do hexágono vai implementar e responder por aquela interface.
+   - Alguma classe controladora dentro do hexágono vai implementar e responder por aquela interface.
  
  
  Existem formas diferentes de como que você expõe isso:
