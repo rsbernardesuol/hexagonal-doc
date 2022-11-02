@@ -67,7 +67,7 @@ Fora do hexágono, temos qualquer coisa do mundo real com a qual o aplicativo in
 
 1. Ator Primário Condutor
    - A interação é acionada pelo ator. 
-   - É aquele interage com o aplicativo para atingir um objetivo. Exemplos: Suites de test
+   - É aquele que interage com o aplicativo para atingir um objetivo. Exemplos: Suites de test
 
 
 2. Ator Secundário Conduzido
