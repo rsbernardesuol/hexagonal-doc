@@ -260,10 +260,10 @@ poderão funcionar fora do IoC. Isso pode ter prós e contras dependendo de como
 
 # Sequência de Desenvolvimento?
 
-  - PASSO 1 - Hexágono (Centro)
-  - PASSO 2 - Front-End (Lado Esquerdo)
-  - PASSO 3 - Back-Services (Lado Direito)
-  - PASSO 4 - Build de Produção
+  - PASSO 1 - Hexágono (Centro - Build 1: Adaptadores Testes -> Sistema <- Adaptadores Mocks)
+  - PASSO 2 - Front-End (Lado Esquerdo - Build 2: Adaptadores Interface Gráfica -> Sistema <- Adaptadores Mocks.)
+  - PASSO 3 - Back-Services (Lado Direito - Build 3: Adaptadores Interface Gráﬁca -> Sistema <- Adaptadores Serviços Homologação.)
+  - PASSO 4 - Build de Produção (Build 4: Conﬁgurar o ambiente de produção e fazer o build oﬁcial ﬁnal)
 
 # Quando não usar?
 
