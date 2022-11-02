@@ -240,12 +240,14 @@ A arquitetura hexagonal aplica IoC, estabelecendo o princípio modular que <b>o 
 A interfaces de casos de uso podem ser projetados usando as seguintes opções:
 
 1. Variáveis simples máximo de 4 [Joshua Bloch Java Effective item 40].
-2. Padrão de Projeto Parameter Object.
-3. Padrão de Projeto Value Object.
+2. Padrão de Projeto Parameter Object (https://refactoring.guru/introduce-parameter-object).
+3. Padrão de Projeto Value Object (https://deviq.com/value-object/).
 4. Expor objeto de domínio como parâmetro.
 5. Objetos expansíveis como HashMap.
-6. Padrão de projeto “Typesafe Heterogeneous Container Pattern”.
-7. Objeto dinâmicos no uso de linguagens dinâmicas: groovy Expando.
+6. Padrão de projeto “Typesafe Heterogeneous Container Pattern” (https://fernandofranzini.wordpress.com/2013/02/28/generics-item-2
+9/).
+7. Objeto dinâmicos no uso de linguagens dinâmicas: groovy Expando (https://mrhaki.blogspot.com/2009/10/groovy-goodness-expando-as-
+dynamic-bean.html).
 
 
 # Quando não usar?
