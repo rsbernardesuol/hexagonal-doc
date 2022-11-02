@@ -261,9 +261,16 @@ poderão funcionar fora do IoC. Isso pode ter prós e contras dependendo de como
 # Sequência de Desenvolvimento?
 
   - PASSO 1 - Hexágono (Centro - Build 1: Adaptadores Testes -> Sistema <- Adaptadores Mocks)
+    - O ponto de partida é implementar o hexágono como uma caixa preta, com as interfaces de portas deﬁnidas em torno dela, tanto no lado esquerdo, quanto     no lado direito. Ou seja, implementar, testar e validar os serviços do sistema, sem tela, sem infraestrutura, usando TDD e mocks.
+    
   - PASSO 2 - Front-End (Lado Esquerdo - Build 2: Adaptadores Interface Gráfica -> Sistema <- Adaptadores Mocks.)
-  - PASSO 3 - Back-Services (Lado Direito - Build 3: Adaptadores Interface Gráﬁca -> Sistema <- Adaptadores Serviços Homologação.)
+    - Implementar os adaptadores primários condutores, plugando a na porta do hexágono. Ou seja, implementar, testar e validar a tecnologia e frameworks de front-end, sem serviços de infraestrutura.
+  
+  - PASSO 3 - Back-Services (Lado Direito - Build 3: Adaptadores Interface Gráﬁca -> Sistema <- Adaptadores Serviços Homologação)
+    - Implementar os adaptadores secundários dirigidos, plugando a na porta do hexágono. Ou seja, implementar, testar e validar a tecnologia e frameworks de referente as serviços necessários para a solução.
+  
   - PASSO 4 - Build de Produção (Build 4: Conﬁgurar o ambiente de produção e fazer o build oﬁcial ﬁnal)
+  
 
 # Quando não usar?
 
