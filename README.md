@@ -6,9 +6,13 @@
  - <b>Semáforo:</b> É um padrão da industria então pode ser considerado um design-pattern, é muito utilizado no cruzamento de apenas 2(duas) ruas e tem custo baixo.
  - <b>Rotatória:</b> É um padrão da industria então pode ser considerado um design-pattern, é muito utilizado no cruzamento de várias vias e tem custo elevado.
 
+
+
 # GUIDELINE
 
 Hexagonal além de ser um Design Pattern é um guideline, ou seja uma diretriz, traz principios pré-definidados onde o objetivo é colher resultados previamente direcionados. 
+
+
 
 # Para que serve?
 
@@ -20,6 +24,8 @@ Projetar e construir aplicativos de software, estabelecendo uma arquitetura mode
 
 3. Adiar decisões técnicas o máximo possível.
 
+
+
 # Quando surgiu?
 
 Elaborado e documentado em 2005 por Alistair Cockburn (https://en.wikipedia.org/wiki/Alistair_Cockburn)
@@ -30,14 +36,19 @@ Elaborado e documentado em 2005 por Alistair Cockburn (https://en.wikipedia.org/
 
 Foi idealizado para que as equipes de desenvolvimento pudessem aplicar ideias/premissas de ágil na elaboração da arquitetura de software. Perdeu força nos anos seguintes mas ressurgiu como um interesse global a partir de 2015.
 
+
+
 # Qual objetivo?
 
 Foco no requisito de negócio, ignorando dependências externas técnicas e infra estruturais (ex: interface grafica e banco de dados). A ideia é criar uma arquitetura que possa ser executada por usuários, programas e testes automatizados.
 Essa arquitetura também é chamada de "Port and Adapters Patterns".
 
+
+
 # Arquitetura Hexagonal
 
 ![Hexagonal](hexagonal2.png)
+
 
 
 # Isolamento
@@ -61,6 +72,8 @@ A arquitetura hexagonal aplica <b>SoC(Separation of concerns)</b> e estabelece o
    - Fornecerá os <b>serviços de infraestrutura</b> que a solução precisa para existir.
    - Conterá <b>código de tecnologia específica</b>, normalmente código que interage com o banco de dados, faz chamadas http etc.
 
+
+
 # Atores
 
 Fora do hexágono, temos qualquer coisa do mundo real com a qual o aplicativo interage. Essas coisas incluem seres humanos, outros aplicativos ou qualquer dispositivo de hardware ou software. Eles são chamados de atores.
@@ -77,6 +90,8 @@ Fora do hexágono, temos qualquer coisa do mundo real com a qual o aplicativo in
 
 ![Atores](atores.png)
 
+
+
 # Dependências
 
 A arquitetura hexagonal estabelece o seguinte princípio de dependências: "<b>somente de fora para dentro!</b>":
@@ -86,6 +101,7 @@ A arquitetura hexagonal estabelece o seguinte princípio de dependências: "<b>s
 2. Lado direito, os atores secundários dependem do hexágono.
 
 3. O centro, o hexágono não depende de ninguém, só dele mesmo.
+
 
 
 # Portas
@@ -103,6 +119,7 @@ Hexagono 100% Isolado, a comunicação "de fora para dentro" deve ser feito atra
    - Devem estar <b>fora do hexágono</b>.
    - Utilizam <b>tecnologia específica</b>.
    - Convertem chamada de negócio em alguma necessidade infraestrutural e externa a solução.
+
 
 
 # Adaptadores
@@ -127,6 +144,7 @@ Funcionam como um <b>"adaptador de tomada"</b> que fazem <b>"ponte"</b> para o q
    - São classes OOP que usam <b>frameworks e tecnologias específicas</b>.
    - Para cada porta conduzida, dev haver pelo <b>menos dois adaptadores</b> (um para o dispositivo do mundo real e outro simulado/mock)
    Ex: Classe DAO via JDBC, Classes cliente consumidor de um rest, Classe envio de sms, etc ...
+   
    
 
 # Fluxo de Execução
@@ -190,11 +208,10 @@ A arquitetura hexagonal aplica IoC, estabelecendo o princípio modular que <b>o 
    Ex: Hexágono faz venda, compra e aluguel. Você vai ter uma interface para cada com seu eventos (Venda->verPreco, Venda->gerarOrcamento) 
 
  3. Uso do padrão de projeto: Command Bus (Interfaces dinâmicas e flexíveis)
-   - Usado em operações que contém alterações
+    - Usado em operações que contém alterações
 
  4. Uso do padrão de projeto: Command Query (Interfaces dinâmicas e flexíveis). 
-   - Usado em operações que contém apenas resposta de consulta e não vai alterar nada.
-
+    - Usado em operações que contém apenas resposta de consulta e não vai alterar nada.
 
 
 
