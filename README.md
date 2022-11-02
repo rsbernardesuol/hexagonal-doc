@@ -159,20 +159,19 @@ A arquitetura hexagonal aplica IoC, estabelecendo o princípio modular que <b>o 
    
 # Opções de Design?
 
-Implementação das regras de negócio dentro do hexágono
+<b>Implementação das regras de negócio dentro do hexágono</b>
 
-1 - Transactions Script - EAA Pattern (https://martinfowler.com/eaaCatalog/).
+1 - Transactions Script - EAA Pattern (https://martinfowler.com/eaaCatalog/transactionScript.html).
 
-2 - Domain Model - EAA Pattern.
+2 - Domain Model - EAA Pattern (https://martinfowler.com/eaaCatalog/domainModel.html).
 
-3 - Service Layer - EAA Pattern.
+3 - Service Layer - EAA Pattern (https://martinfowler.com/eaaCatalog/serviceLayer.html).
 
-4 - Anemic Domain Model - EAA Pattern.
+4 - Anemic Domain Model - EAA Pattern (https://martinfowler.com/bliki/AnemicDomainModel.html).
 
 5 - Domain Driven Design - DDD (Eric Evans - https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/).
 
 6 - Clean Architecture - Entities e User Cases (Uncle Bob - https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
-
 
 
 # Quando não usar?
@@ -204,3 +203,5 @@ Não existe bala de prata. A arquitetura hexagonal tem se destacado como uma ót
 ![Livro1](livro1.jpg)
 
 ![Livro2](livro2.jpg)
+
+![Livro2](livro3.jpg)
