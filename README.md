@@ -161,7 +161,7 @@ A arquitetura hexagonal aplica IoC, estabelecendo o princípio modular que <b>o 
 
 Implementação das regras de negócio dentro do hexágono
 
-1 - Transactions Script - EAA Pattern.
+1 - Transactions Script - EAA Pattern (https://martinfowler.com/eaaCatalog/).
 
 2 - Domain Model - EAA Pattern.
 
@@ -169,9 +169,9 @@ Implementação das regras de negócio dentro do hexágono
 
 4 - Anemic Domain Model - EAA Pattern.
 
-5 - Domain Driven Design - DDD.
+5 - Domain Driven Design - DDD (Eric Evans - https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/).
 
-6 - Clean Architecture (Entities e User Cases).
+6 - Clean Architecture - Entities e User Cases (Uncle Bob - https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
 
 
 
