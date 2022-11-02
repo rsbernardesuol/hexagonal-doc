@@ -37,7 +37,7 @@ Essa arquitetura também é chamada de "Port and Adapters Patterns".
 
 # Arquitetura Hexagonal
 
-![Hexagonal](hexagonal.png)
+![Hexagonal](hexagonal2.png)
 
 
 # Isolamento
