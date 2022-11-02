@@ -258,6 +258,12 @@ dynamic-bean.html).
 os backservices e deverão entrar no gerenciamento IoC. Outros objetos, de outros serviços dentro do hexágono, não terão dependência com o backservices e
 poderão funcionar fora do IoC. Isso pode ter prós e contras dependendo de como foi organizado o hexágono.
 
+# Sequência de Desenvolvimento?
+
+  - PASSO 1 - Hexágono (Centro)
+  - PASSO 2 - Front-End (Lado Esquerdo)
+  - PASSO 3 - Back-Services (Lado Direito)
+  - PASSO 4 - Build de Produção
 
 # Quando não usar?
 
