@@ -177,7 +177,7 @@ A arquitetura hexagonal aplica IoC, estabelecendo o princípio modular que <b>o 
    
 # Opções de Design?
 
-<b>Você ﬁca livre para organizar</b> seu projeto de forma que quiser, balanceando os <b>prós e contras</b> de cada opção, usando seu <b>know-how</b> e <b>os recursos</b> que sua plataforma oferece, desde que: cada opção não <b>fure</b> os princípios hexagonal.
+<b>Você ﬁca livre para organizar</b> seu projeto da forma que quiser, balanceando os <b>prós e contras</b> de cada opção, usando seu <b>know-how</b> e <b>os recursos</b> que sua plataforma oferece, desde que: cada opção não <b>fure</b> os princípios hexagonal.
 
 <b>Organização do Projeto</b>
 
