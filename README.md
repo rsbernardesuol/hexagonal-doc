@@ -128,13 +128,20 @@ Funcionam como um <b>"adaptador de tomada"</b> que fazem <b>"ponte"</b> para o q
    - Para cada porta conduzida, dev haver pelo <b>menos dois adaptadores</b> (um para o dispositivo do mundo real e outro simulado/mock)
    Ex: Classe DAO via JDBC, Classes cliente consumidor de um rest, Classe envio de sms, etc ...
    
-# Opções de Design - Implementação das regras de negócio dentro do hexágono?
+# Opções de Design?
+
+Implementação das regras de negócio dentro do hexágono
 
 1 - Transactions Script - EAA Pattern.
+
 2 - Domain Model - EAA Pattern.
+
 3 - Service Layer - EAA Pattern.
+
 4 - Anemic Domain Model - EAA Pattern.
+
 5 - Domain Driven Design - DDD.
+
 6 - Clean Architecture (Entities e User Cases).
 
 
