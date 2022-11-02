@@ -128,6 +128,35 @@ Funcionam como um <b>"adaptador de tomada"</b> que fazem <b>"ponte"</b> para o q
    - Para cada porta conduzida, dev haver pelo <b>menos dois adaptadores</b> (um para o dispositivo do mundo real e outro simulado/mock)
    Ex: Classe DAO via JDBC, Classes cliente consumidor de um rest, Classe envio de sms, etc ...
    
+
+# Fluxo de Execução
+
+<b>Na teroria</b>
+
+1. Lado esquerdo, os atores primários dependem do hexágono.
+
+2. Lado direito, os atores secundários dependem do hexágono.
+
+3. O centro, o hexágono não depende de ninguém, só dele mesmo.
+
+
+<b>Na prática</b>
+
+1. O centro, o <b>hexágono depende do lado direito</b>.
+
+2. Lado direito, os <b>atores secundários não dependem</b> do hexágono.
+
+
+<b>Como resolver isso?</b>
+
+<b>Inversão de Controle (Inversion of Control - IoC)</b>
+
+É um padrão arquitetural, uma técnica de arquitetura de software usada para <b>inverter uma linha de dependência em um bloco arquitetural</b>. Se o componente A [->depende->] B, usando IoC é possível fazer inverter a seta, fazendo com que A [<- dependa IoC<-] B. 
+
+A arquitetura hexagonal aplica IoC, estabelecendo o princípio modular que <b>o lado de fora direito tem dependência ao hexágono via IoC!</b>
+
+   
+   
 # Opções de Design?
 
 Implementação das regras de negócio dentro do hexágono
