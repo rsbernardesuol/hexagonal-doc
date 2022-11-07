@@ -280,6 +280,7 @@ Ele será pequeno, mas suﬁciente para implementar todo o ciclo e as decisões 
 
 <b>Protótipo:</b>
 
+![Prototipo](prototipo.png)
 
 
 # Quando não usar?
@@ -295,9 +296,6 @@ Projetos de <b>médio</b> e <b>grande porte</b>, que supostamente possuem um <b>
 Pois em curto prazo, o investimento se reverte em lucro pela quantidade e velocidade das mudanças.
 
 Projetos de <b>qualquer porte</b> que precisam ser desenvolvidos sem <b>amarrações</b> com <b>front-end</b> e <b>back services</b>.
-
-
-![Prototipo](prototipo.png)
 
 
 # Conclusão
