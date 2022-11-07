@@ -302,8 +302,13 @@ Intellij, Tdd, JUnit, Sintaxe Java, OOP, Polimorﬁsmo, DbC, Spring e JavaFX.
 
 <b>Projeto</b>
 
+ - 3 projetos separados: sistema.jar (hexagono), servicos.jar (lado direito) e desktop (lado esquerdo).
+ - Dependências frameworks via maven.
+ - Dependências hexagonal via maven system local.
+ - Organização de pacotes misto de DDD e metáforas hexagonal.
+ - Organização de negócio via EAA: Modelo de Domínio e Serviço de Domínio.
 
-# Fontes
+<b>Código Fonte</b>
 
 https://github.com/rsbernardesuol/hexagonal-transferencia
 
