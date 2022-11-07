@@ -271,6 +271,16 @@ poderão funcionar fora do IoC. Isso pode ter prós e contras dependendo de como
   
   - PASSO 4 - Build de Produção (Build 4: Conﬁgurar o ambiente de produção e fazer o build oﬁcial ﬁnal)
   
+  
+# Projeto prático - Transferência Bancária?  
+
+Vamos desenvolver, testar e executar um projeto hexagonal completo com Java. 
+
+Ele será pequeno, mas suﬁciente para implementar todo o ciclo e as decisões mais fundamentais sobre esse padrão arquitetural.
+
+<b>Protótipo:</b>
+
+
 
 # Quando não usar?
 
@@ -286,6 +296,8 @@ Pois em curto prazo, o investimento se reverte em lucro pela quantidade e veloci
 
 Projetos de <b>qualquer porte</b> que precisam ser desenvolvidos sem <b>amarrações</b> com <b>front-end</b> e <b>back services</b>.
 
+
+![Prototipo](prototipo.png)
 
 
 # Conclusão
