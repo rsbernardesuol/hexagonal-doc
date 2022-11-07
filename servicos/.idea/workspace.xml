@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="teste" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a122e14-de3e-42c8-945b-7f5f74f1d696" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/teste/integracao/TesteContaRepositorio.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="64" column="43" lean-forward="true" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="module-info" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/teste/unidade/TesteCreditoConta.java" />
+        <option value="$PROJECT_DIR$/src/test/java/teste/unidade/TesteServicoEmail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/conta/servicos/hsql/ContaRepositorioImp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/teste/integracao/TesteServicoEmail.java" />
+        <option value="$PROJECT_DIR$/src/test/java/teste/integracao/Build.java" />
+        <option value="$PROJECT_DIR$/src/main/java/conta/servicos/email/ServicoEmailImp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/teste/integracao/conta/Config.java" />
+        <option value="$PROJECT_DIR$/src/test/java/teste/integracao/conta/TesteContaRepositorio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/conta/servicos/respostorio/ContaRepositorioImp.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/create-db.sql" />
+        <option value="$PROJECT_DIR$/src/test/resources/insert-data.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/module-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/conta/servicos/respositorio/ContaRepositorioImp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/teste/SuiteIntegracao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/teste/integracao/Config.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/teste/integracao/TesteContaRepositorio.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="271" />
+    <option name="y" value="70" />
+    <option name="width" value="1248" />
+    <option name="height" value="977" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="conta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="conta" type="462c0819:PsiDirectoryNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="conta" type="462c0819:PsiDirectoryNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+              <item name="respositorio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="teste" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="teste" type="462c0819:PsiDirectoryNode" />
+              <item name="integracao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.12918216" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="teste.integracao.conta" />
+      <recent name="teste.integracao" />
+      <recent name="teste" />
+      <recent name="teste.unidade" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SuiteIntegracao">
+    <configuration name="SuiteIntegracao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servicos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="teste" />
+      <option name="MAIN_CLASS_NAME" value="teste.SuiteIntegracao" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteContaRepositorio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servicos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teste.integracao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="teste.integracao" />
+      <option name="MAIN_CLASS_NAME" value="teste.integracao.TesteContaRepositorio" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteContaRepositorio.teste2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servicos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teste.integracao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="teste.integracao" />
+      <option name="MAIN_CLASS_NAME" value="teste.integracao.TesteContaRepositorio" />
+      <option name="METHOD_NAME" value="teste2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteContaRepositorio.teste4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servicos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teste.integracao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="teste.integracao" />
+      <option name="MAIN_CLASS_NAME" value="teste.integracao.TesteContaRepositorio" />
+      <option name="METHOD_NAME" value="teste4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteContaRepositorio.teste5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servicos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teste.integracao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="teste.integracao" />
+      <option name="MAIN_CLASS_NAME" value="teste.integracao.TesteContaRepositorio" />
+      <option name="METHOD_NAME" value="teste5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SuiteIntegracao" />
+        <item itemvalue="JUnit.TesteContaRepositorio" />
+        <item itemvalue="JUnit.TesteContaRepositorio.teste5" />
+        <item itemvalue="JUnit.TesteContaRepositorio.teste4" />
+        <item itemvalue="JUnit.TesteContaRepositorio.teste2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a122e14-de3e-42c8-945b-7f5f74f1d696" name="Default Changelist" comment="" />
+      <created>1554387603567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554387603567</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SuiteIntegracao - 2019.04.08 at 16h 32m 13s.xml">
+      <configuration name="SuiteIntegracao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TesteContaRepositorio - 2019.04.11 at 11h 33m 57s.xml">
+      <configuration name="TesteContaRepositorio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuiteIntegracao - 2019.04.11 at 11h 34m 03s.xml">
+      <configuration name="SuiteIntegracao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuiteIntegracao - 2019.04.15 at 12h 11m 15s.xml">
+      <configuration name="SuiteIntegracao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuiteIntegracao - 2019.06.13 at 17h 02m 39s.xml">
+      <configuration name="SuiteIntegracao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TesteContaRepositorio - 2019.06.13 at 17h 05m 48s.xml">
+      <configuration name="TesteContaRepositorio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuiteIntegracao - 2019.06.13 at 17h 13m 47s.xml">
+      <configuration name="SuiteIntegracao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuiteIntegracao - 2019.06.13 at 17h 20m 43s.xml">
+      <configuration name="SuiteIntegracao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuiteIntegracao - 2019.06.14 at 09h 24m 08s.xml">
+      <configuration name="SuiteIntegracao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuiteIntegracao - 2019.07.16 at 14h 32m 31s.xml">
+      <configuration name="SuiteIntegracao" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32910052" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Maven" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Run" order="8" side_tool="true" weight="0.2875" />
+      <window_info anchor="right" id="Messages" order="9" side_tool="true" weight="0.24010417" />
+      <window_info anchor="right" id="Debug" order="10" side_tool="true" weight="0.271875" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Objects.java" />
+    <entry file="jar://$PROJECT_DIR$/../core/out/artifacts/core/core.jar!/conta/core/porta/ServicoEmail.class" />
+    <entry file="jar://$PROJECT_DIR$/../core/out/artifacts/core/core.jar!/conta/core/porta/ServicoEmail.java" />
+    <entry file="jar://$PROJECT_DIR$/../core/out/artifacts/core/core.jar!/conta/core/porta/ContaRepositorio.java" />
+    <entry file="jar://$PROJECT_DIR$/../core/out/artifacts/core/core.jar!/conta/core/dominio/modelo/Conta.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="126" column="35" lean-forward="true" selection-start-line="126" selection-start-column="35" selection-end-line="126" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.6.RELEASE/spring-jdbc-5.1.6.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="568" column="37" selection-start-line="568" selection-start-column="37" selection-end-line="568" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../core/out/artifacts/core/core.jar!/conta/core/porta/ContaRepositorio.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.4.1/junit-platform-commons-1.4.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="297" selection-start-line="297" selection-end-line="297" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/conta/servicos/email/ServicoEmailImp.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/teste/integracao/email/TesteServicoEmail.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/create-db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/insert-data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/conta/servicos/respositorio/ContaRepositorioImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/teste/SuiteIntegracao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/teste/integracao/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/teste/integracao/TesteContaRepositorio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="64" column="43" lean-forward="true" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>servicos</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.12918216" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28275862" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>open-jdk-12.0.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28275862" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>servicos</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28275862" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.el:javax.el-api:3.0.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28275862" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
