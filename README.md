@@ -283,6 +283,18 @@ Ele será pequeno, mas suﬁciente para implementar todo o ciclo e as decisões 
 ![Prototipo](prototipo.png)
 
 
+<b>Base de Dados Relacional:</b>
+
+```
+create table conta (
+numero integer primary key,
+saldo decimal (10,2),
+correntista varchar(200)
+);
+
+```
+
+
 # Quando não usar?
 
 Projetos <b>temporais</b>, de <b>menor porte</b> ou <b>legados</b>, no qual não se tenha previsão de alteração de tipo de front-end ou de back services.
