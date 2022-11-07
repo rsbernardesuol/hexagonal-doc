@@ -307,6 +307,21 @@ Intellij, Tdd, JUnit, Sintaxe Java, OOP, Polimorﬁsmo, DbC, Spring e JavaFX.
  - Dependências hexagonal via maven system local.
  - Organização de pacotes misto de DDD e metáforas hexagonal.
  - Organização de negócio via EAA: Modelo de Domínio e Serviço de Domínio.
+ - Organização das Portas Primárias: várias interfaces, cada uma agrupando operações relacionadas. Mas no projeto teremos apenas 1 grupo.
+ - Transferência de dados: variáveis simples.
+ - Consumo de objetos de backservices somente nos objetos de portas, deixando a regra de negócio puro POJO sem dependência com o mundo externo. 
+
+<b>Tecnologias</b>
+
+ - Dependências frameworks java via maven.
+ - Banco de dados relacional usaremos HSQDB. Para desenvolvimento e homologação vamos usar em modo "embedded database". Para produção vamos usar em modo    "local jvm".
+ - Front-End usaremos desktop via JavaFX.
+ - Provedor de persistência Spring JDBC.
+ - Provedor de transação Spring Transaction.
+ - Provedor de IoC Spring IoC.
+ - Validação de negócio manual, nenhum framework.
+ - Builds IoC via Java Conﬁg manual, nenhum framework. 
+
 
 <b>Código Fonte</b>
 
