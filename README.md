@@ -294,6 +294,18 @@ correntista varchar(200)
 
 ```
 
+<b>Ferramentas utilizadas</b>
+
+Intellij, Tdd, JUnit, Sintaxe Java, OOP, Polimorﬁsmo, DbC, Spring e JavaFX.
+
+# Decisões de Design: Transferência Bancária
+
+<b>Projeto</b>
+
+
+# Fontes
+
+https://github.com/rsbernardesuol/hexagonal-transferencia
 
 # Quando não usar?
 
