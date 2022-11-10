@@ -278,6 +278,11 @@ Vamos desenvolver, testar e executar um projeto hexagonal completo com Java.
 
 Ele será pequeno, mas suﬁciente para implementar todo o ciclo e as decisões mais fundamentais sobre esse padrão arquitetural.
 
+
+
+![Hexagonal](hexagonal_impl.png)
+
+
 <b>Protótipo:</b>
 
 ![Prototipo](prototipo.png)
